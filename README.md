@@ -42,11 +42,11 @@ Zillow Data Features:
 <img width="1062" alt="image" src="https://user-images.githubusercontent.com/98612085/189556238-f433cb25-1158-4a29-91bd-4f2b9dc58c55.png">
 
 # Conclusion and Recommendations: 
-Square footage of the property
-Number of Bedrooms and Bathrooms
-Location
 
-Using Recursive Feature Elimination (RFE) 
+### Best predictor features, Using Recursive Feature Elimination (RFE):
+Square footage
+Number of Bedrooms and Bathrooms
+Location, Location, location... is the most vital aspect for value determination
 
 Model - The Ordinary Least Squared regression model had the best performance.
 
