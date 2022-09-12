@@ -43,12 +43,16 @@ Zillow Data Features:
 
 # Conclusion and Recommendations: 
 
-### Best predictor features, Using Recursive Feature Elimination (RFE):
-Square footage
-Number of Bedrooms and Bathrooms
-Location, Location, location... is the most vital aspect for value determination
+### Insights:
+- More than half of the homes in the data were located in Los Angeles County, 10% were in Ventura County
 
-Model - The Ordinary Least Squared regression model had the best performance.
+### Best predictor features, Using Recursive Feature Elimination (RFE):
+1. Square footage
+2. Number of Bedrooms
+3. Number of Bathrooms
+4. Location, Location, location... is the most vital aspect for value determination
+
+### Model - The Ordinary Least Squared regression model had the best performance.
 
 - Train: 
   - 207,982 RMSE
