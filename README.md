@@ -10,5 +10,6 @@
 
 Zillow Data Features:
 
-<img width="586" alt="image" src="https://user-images.githubusercontent.com/98612085/189434891-0d333546-6f4f-48a9-9287-673b05b27639.png">
+<img width="1187" alt="image" src="https://user-images.githubusercontent.com/98612085/189556700-b97d7450-bafa-47f8-81a5-10377050600a.png">
+
 <img width="1062" alt="image" src="https://user-images.githubusercontent.com/98612085/189556238-f433cb25-1158-4a29-91bd-4f2b9dc58c55.png">
