@@ -7,8 +7,8 @@
     <li><a href="#about">About</a>
     <li><a href="#summary">Summary</a></li>
     <li><a href="#goals">Goals</a></li>
-    <li><a href="#data">Data Dictionary</a></li>
-    <li><a href="#additional">Additional Improvements</a></li>
+    <li><a href="#data-dictionary">Data Dictionary</a></li>
+    <li><a href="#additional-improvements">Additional Improvements</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
