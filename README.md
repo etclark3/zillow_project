@@ -9,8 +9,10 @@
     <li><a href="#data-dictionary">Data Dictionary</a></li>
     <li><a href="#preliminary-questions">Questions</a></li>
     <li><a href="#planning">Planning</a></li>
+    <li><a href="#Conclusion-and-Recommendations">Conclusion and Recommendations</a></li>
     <li><a href="#additional-improvements">Additional Improvements</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#for-reproduction">For Reproduction</a></li>
   </ol>
 </details>
     
@@ -28,6 +30,7 @@
     - How much does location play a part in value?
 # Planning:
 ![Zillow_pipeline](https://user-images.githubusercontent.com/98612085/189562019-2c09bdbf-5358-4be3-98e6-91cf3b124af3.png)
+
 # Data Dictionary:
 
 Zillow Data Features:
@@ -36,12 +39,20 @@ Zillow Data Features:
 
 <img width="1062" alt="image" src="https://user-images.githubusercontent.com/98612085/189556238-f433cb25-1158-4a29-91bd-4f2b9dc58c55.png">
 
-# Recommendations: 
+# Conclusion and Recommendations: 
+
 # Additional Improvements:
 - Remove additional outliers and focus data on "normal homes" to increase accuracy of model predictions for homes for the 2nd and 3rd quartile of data
 - Use census tract and block data as they define subdivision bounds. Homes values are typically similar in neighborhoods
 
 # Contact:
 Everett Clark - everett.clark.t@gmail.com
+
+# For Reproduction:
+You will need your own database server credentials then:
+
+Download wrangle.py and project_final_notebook
+Add your own credentials to the directory (username, host, password)
+Run the project_final_notebook
 
 [[Back to top](#top)]
