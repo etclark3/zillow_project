@@ -4,10 +4,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about">About</a>
-      <a href="#getting-started">Getting Started</a>
-    </li>
+    <li><a href="#about">About</a>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
