@@ -48,22 +48,20 @@ Using Recursive Reature Elimination (RFE)
 
 Takeaways
 
-Out of all three counties, Los Angeles has the cheapest average price for housing.
-Los angeles however has a lot more houses that are higher than the average price yet relatively smaller in terms of square footage.
-Los Angeles has more of an abundant of older homes.
-No matter the county it seems homes built after 1960 are above the average Tax Value.
-Homes with above the median amonut of bathrooms and below the median amount of bedrooms are more expensive then the opposite.
-Model
 
-The Ordinary Least Squared regression model had the best performance.
+Model - The Ordinary Least Squared regression model had the best performance.
 
 - Train: 
   - 205,837 RMSE
-  - .246 R-squared value for the train data and a $200,559 RMSE, .257 R2 value for the validate dataset.
-Validate: 
-Test: 
-For the test dataset the model performs a little worse, with a drop off of $3,000.
-Next Steps/Reccomendations
+  - 0.246 R-squared value
+- Validate: 
+  - 205,837 RMSE
+  - 0.246 R-squared value
+- Test: 
+  - 205,837 RMSE
+  - 0.28 R-squared value
+  - 
+# Next Steps/Reccomendations: 
 
 Following this initial project, I would like to create a more refined model. Whether it is through running different groups of features through my current model, tuning the hyperparameters or both.
 As well as creating more python files that store functions so as to make the final report less filled by code and easier to read.
