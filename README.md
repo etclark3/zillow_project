@@ -54,14 +54,12 @@ Zillow Data Features:
 
 ### Model - The Ordinary Least Squared regression model had the best performance.
 
-(For Comparison)
+#### (For Comparison)
     - Train RMSE (Mean): 246,245
     - Train RMSE (Median): 247,946
     - Validate RMSE (Mean): 248,493
     - Validate (Median): 249,889
-- What are the most important features that determine a home's value?
-- How many homes are outside the ordinary from a "regular home"?
-- How much does location play a part in value?
+
 - Train: 
   - 207,982 RMSE
   - 0.246 R-squared value
