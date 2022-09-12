@@ -23,7 +23,9 @@
 - The model's R-squared scored was 6% higher than any other model used and both RMSE and R-squared were higher on the test data than the train data.
 
 # Preliminary Questions:
-
+    - What are the most important features that determine a home's value?
+    - How many homes are outside the ordinary from a "regular home"?
+    - How much does location play a part in value?
 # Planning:
 
 # Data Dictionary:
