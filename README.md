@@ -6,9 +6,9 @@
   <ol>
     <li><a href="#about">About</a>
     <li><a href="#summary">Summary</a></li>
-    <li><a href="#data-dictionary">Data Dictionary</a></li>
     <li><a href="#preliminary-questions">Questions</a></li>
     <li><a href="#planning">Planning</a></li>
+    <li><a href="#data-dictionary">Data Dictionary</a></li>
     <li><a href="#Conclusion-and-Recommendations">Conclusion and Recommendations</a></li>
     <li><a href="#additional-improvements">Additional Improvements</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -28,6 +28,7 @@
     - What are the most important features that determine a home's value?
     - How many homes are outside the ordinary from a "regular home"?
     - How much does location play a part in value?
+    
 # Planning:
 ![Zillow_pipeline](https://user-images.githubusercontent.com/98612085/189562019-2c09bdbf-5358-4be3-98e6-91cf3b124af3.png)
 
@@ -61,7 +62,8 @@ Model - The Ordinary Least Squared regression model had the best performance.
   - 0.282 R-squared value
   
 # Recommendations: 
-
+  1.
+  2.
 # Additional Improvements:
 - Remove additional outliers and focus data on "normal homes" to increase accuracy of model predictions for homes for the 2nd and 3rd quartile of data.
 - Use census tract and block data as they define subdivision bounds. Homes values are typically similar in neighborhoods.
