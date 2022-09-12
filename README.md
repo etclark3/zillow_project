@@ -5,7 +5,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about">About</a>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#goals">Goals</a></li>
+    <li><a href="#data dictionary">Data Dictionary</a></li>
+    <li><a href="#additional improvements">Additional Improvements</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
