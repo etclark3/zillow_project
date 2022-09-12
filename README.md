@@ -1,5 +1,5 @@
 # Zillow SFH Price Prediction Project
-
+--------------
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -23,7 +23,6 @@
 - The model's R-squared scored was 6% higher than any other model used and both RMSE and R-squared were higher on the test data than the train data.
 
 # Preliminary Questions:
------------
 
 # Planning:
 
