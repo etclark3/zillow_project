@@ -1,10 +1,10 @@
 # Zillow SFH Price Prediction Project
 
 # About
+- Using Linear Regession Models on Zillow data, attempt to accurately predict Single Family Home (SFH) prices for homes sold in 2017
 
-# Overview:
-- Using Linear Regession Models, accurately predict SFH prices
-- 
+# Summary:
+- Seven features (bathrooms, bedrooms, bldg_quality, f_sqft, fips, lot_size, zip) derived from the Zillow data with originally 62 feature columns were the most accurate to predict the Tax Value (tax_value) of a SFH.
 
 # Goals:
 -----------
