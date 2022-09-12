@@ -54,12 +54,6 @@ Zillow Data Features:
 
 ### Model - The Ordinary Least Squared regression model had the best performance.
 
-#### (For Comparison)
-    - Train RMSE (Mean): 246,245
-    - Train RMSE (Median): 247,946
-    - Validate RMSE (Mean): 248,493
-    - Validate (Median): 249,889
-
 - Train: 
   - 207,982 RMSE
   - 0.246 R-squared value
@@ -69,7 +63,13 @@ Zillow Data Features:
 - Test: 
   - 207,106 RMSE
   - 0.282 R-squared value
-  
+  - 
+#### (For Comparison)
+    - Train RMSE (Mean): 246,245
+    - Train RMSE (Median): 247,946
+    - Validate RMSE (Mean): 248,493
+    - Validate (Median): 249,889
+    
 # Recommendations: 
   1. Focus models on bedrooms, bathrooms, sqft, and more narrow location features
   2. Aim regression models more precisely on homes valued at between 200,000 and 600,000 for better results 
