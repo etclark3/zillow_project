@@ -27,7 +27,7 @@
     - How many homes are outside the ordinary from a "regular home"?
     - How much does location play a part in value?
 # Planning:
-
+![Zillow_pipeline](https://user-images.githubusercontent.com/98612085/189562019-2c09bdbf-5358-4be3-98e6-91cf3b124af3.png)
 # Data Dictionary:
 
 Zillow Data Features:
