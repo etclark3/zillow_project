@@ -13,7 +13,6 @@
   </ol>
 </details>
     
-<!-- ABOUT -->
 # About:
 - Using Linear Regession Models on Zillow data, attempt to accurately predict Single Family Home (SFH) prices for homes sold in 2017
 
