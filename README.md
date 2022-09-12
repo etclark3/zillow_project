@@ -11,6 +11,7 @@
     <li><a href="#data-dictionary">Data Dictionary</a></li>
     <li><a href="#Conclusion-and-Recommendations">Conclusion and Recommendations</a></li>
     <li><a href="#additional-improvements">Additional Improvements</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#for-reproduction">For Reproduction</a></li>
   </ol>
@@ -40,14 +41,12 @@ Zillow Data Features:
 
 <img width="1062" alt="image" src="https://user-images.githubusercontent.com/98612085/189556238-f433cb25-1158-4a29-91bd-4f2b9dc58c55.png">
 
-# Takeaways:
-
 # Conclusion and Recommendations: 
 Square footage of the property
 Number of Bedrooms and Bathrooms
 Location
 
-Using Recursive Reature Elimination (RFE) 
+Using Recursive Feature Elimination (RFE) 
 
 Model - The Ordinary Least Squared regression model had the best performance.
 
@@ -62,8 +61,9 @@ Model - The Ordinary Least Squared regression model had the best performance.
   - 0.282 R-squared value
   
 # Recommendations: 
-  1.
-  2.
+  1. Focus models on bedrooms, bathrooms, sqft, and more narrow location features
+  2. Aim regression models more precisely on homes valued at between 200,000 and 600,000 for better results 
+  
 # Additional Improvements:
 - Remove additional outliers and focus data on "normal homes" to increase accuracy of model predictions for homes for the 2nd and 3rd quartile of data.
 - Use census tract and block data as they define subdivision bounds. Homes values are typically similar in neighborhoods.
