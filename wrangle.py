@@ -509,10 +509,21 @@ def vis(df, col, col2):
     plt.title(f'Relationship of {col2} and {col}')
     sns.barplot(x=col, y=col2, data=df)
     sns.barplot(x=col, y=col2, data=df).axhline(df.tax_value.mean())
+    
     plt.show()
     
 def graph(df, col1, col2):
-    plt.hist(df.bedrooms, color='blue', alpha=0.4, bins=20)
-    plt.hist(df.bathrooms, color='orange', alpha=0.4, bins = 20)
-
+    alpha = 0.05
+    H0 = col1+ ' and ' +col2+ ' are independent'
+    Ha = 'There is a relationship between ' +col2+ ' and '+col1
+    observed = pd.crosstab(df[col2], df[col1])
+    chi2, p, degf, expected = stats.chi2_contingency(observed)
+    if p < alpha:
+        print('We reject that', H0)
+        print(Ha)
+    else:
+        print('We fail to reject that', H0)
+        print('There appears to be no relationship between ' +col2+ ' and '+col)
+    plt.hist(df[col1], color='blue', alpha=0.4, bins=20)
+    plt.hist(df[col2], color='orange', alpha=0.4, bins = 20)
     plt.show()
