@@ -14,7 +14,7 @@
 </details>
     
 <!-- ABOUT -->
-# About
+# About:
 - Using Linear Regession Models on Zillow data, attempt to accurately predict Single Family Home (SFH) prices for homes sold in 2017
 
 # Summary:
@@ -32,6 +32,7 @@ Zillow Data Features:
 
 <img width="1062" alt="image" src="https://user-images.githubusercontent.com/98612085/189556238-f433cb25-1158-4a29-91bd-4f2b9dc58c55.png">
 
+# Recommendations: 
 # Additional Improvements:
 - Remove additional outliers and focus data on "normal homes" to increase accuracy of model predictions for homes for the 2nd and 3rd quartile of data
 - Use census tract and block data as they define subdivision bounds. Homes values are typically similar in neighborhoods
