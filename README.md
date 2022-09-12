@@ -19,6 +19,8 @@
 
 # Summary:
 - Seven features (bathrooms, bedrooms, bldg_quality, f_sqft, fips, lot_size, zip) derived from the Zillow data with originally 62 feature columns were the most accurate to predict the Tax Value (tax_value) of a SFH.
+- The Ordinary Least Squared Regression model predicted the most accurately out of three models and was approximately a 40,000 improvement in the standard deviation of variance from the mean and median predictions.
+- The model's R-squared scored was 6% higher than any other model used and both RMSE and R-squared were higher on the test data than the train data.
 
 # Goals:
 -----------
