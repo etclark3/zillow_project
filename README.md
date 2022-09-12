@@ -40,6 +40,35 @@ Zillow Data Features:
 <img width="1062" alt="image" src="https://user-images.githubusercontent.com/98612085/189556238-f433cb25-1158-4a29-91bd-4f2b9dc58c55.png">
 
 # Conclusion and Recommendations: 
+Square footage of the property
+Number of Bedrooms and Bathrooms
+Location
+
+Using Recursive Reature Elimination (RFE) 
+
+Takeaways
+
+Out of all three counties, Los Angeles has the cheapest average price for housing.
+Los angeles however has a lot more houses that are higher than the average price yet relatively smaller in terms of square footage.
+Los Angeles has more of an abundant of older homes.
+No matter the county it seems homes built after 1960 are above the average Tax Value.
+Homes with above the median amonut of bathrooms and below the median amount of bedrooms are more expensive then the opposite.
+Model
+
+The Ordinary Least Squared regression model had the best performance.
+
+- Train: 
+  - 205,837 RMSE
+  - .246 R-squared value for the train data and a $200,559 RMSE, .257 R2 value for the validate dataset.
+Validate: 
+Test: 
+For the test dataset the model performs a little worse, with a drop off of $3,000.
+Next Steps/Reccomendations
+
+Following this initial project, I would like to create a more refined model. Whether it is through running different groups of features through my current model, tuning the hyperparameters or both.
+As well as creating more python files that store functions so as to make the final report less filled by code and easier to read.
+Create a feature that clusters locations in the dataset, most home prices fluctuate by location within cities. With certain city locations being higher in crime, less wealthy, under developed, etc.
+Include previous assesments of the porperties to see if previous pricing of properties affect sell price.
 
 # Additional Improvements:
 - Remove additional outliers and focus data on "normal homes" to increase accuracy of model predictions for homes for the 2nd and 3rd quartile of data
@@ -49,10 +78,10 @@ Zillow Data Features:
 Everett Clark - everett.clark.t@gmail.com
 
 # For Reproduction:
-You will need your own database server credentials then:
+First you will need database server credentials, then:
 
-Download wrangle.py and project_final_notebook
-Add your own credentials to the directory (username, host, password)
-Run the project_final_notebook
+- Download wrangle.py and project_final_notebook
+- Add your own credentials to the directory (username, host, password)
+- Run the project_final_notebook
 
 [[Back to top](#top)]
