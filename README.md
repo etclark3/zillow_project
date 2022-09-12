@@ -39,6 +39,8 @@ Zillow Data Features:
 
 <img width="1062" alt="image" src="https://user-images.githubusercontent.com/98612085/189556238-f433cb25-1158-4a29-91bd-4f2b9dc58c55.png">
 
+# Takeaways:
+
 # Conclusion and Recommendations: 
 Square footage of the property
 Number of Bedrooms and Bathrooms
@@ -46,31 +48,24 @@ Location
 
 Using Recursive Reature Elimination (RFE) 
 
-Takeaways
-
-
 Model - The Ordinary Least Squared regression model had the best performance.
 
 - Train: 
-  - 205,837 RMSE
+  - 207,982 RMSE
   - 0.246 R-squared value
 - Validate: 
-  - 205,837 RMSE
-  - 0.246 R-squared value
+  - 212,982 RMSE
+  - 0.265 R-squared value
 - Test: 
-  - 205,837 RMSE
-  - 0.28 R-squared value
-  - 
-# Next Steps/Reccomendations: 
-
-Following this initial project, I would like to create a more refined model. Whether it is through running different groups of features through my current model, tuning the hyperparameters or both.
-As well as creating more python files that store functions so as to make the final report less filled by code and easier to read.
-Create a feature that clusters locations in the dataset, most home prices fluctuate by location within cities. With certain city locations being higher in crime, less wealthy, under developed, etc.
-Include previous assesments of the porperties to see if previous pricing of properties affect sell price.
+  - 207,106 RMSE
+  - 0.282 R-squared value
+  
+# Recommendations: 
 
 # Additional Improvements:
-- Remove additional outliers and focus data on "normal homes" to increase accuracy of model predictions for homes for the 2nd and 3rd quartile of data
-- Use census tract and block data as they define subdivision bounds. Homes values are typically similar in neighborhoods
+- Remove additional outliers and focus data on "normal homes" to increase accuracy of model predictions for homes for the 2nd and 3rd quartile of data.
+- Use census tract and block data as they define subdivision bounds. Homes values are typically similar in neighborhoods.
+- Look at historical sale prices and potentially additional counties to how that affects prices.
 
 # Contact:
 Everett Clark - everett.clark.t@gmail.com
